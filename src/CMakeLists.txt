@@ -53,7 +53,7 @@ endforeach ()
 
 
 add_library(simple_socket "${publicHeadersFull}" "${privateHeaders}" "${sources}")
-target_compile_features(simple_socket PUBLIC "cxx_std_19")
+target_compile_features(simple_socket PUBLIC "cxx_std_17")
 if (UNIX)
     set_target_properties(simple_socket PROPERTIES POSITION_INDEPENDENT_CODE ON)
 endif ()
