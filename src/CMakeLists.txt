@@ -6,9 +6,6 @@ set(publicHeaders
         "simple_socket/SimpleConnection.hpp"
         "simple_socket/SocketContext.hpp"
         "simple_socket/TCPSocket.hpp"
-
-        "simple_socket/util/byte_conversion.hpp"
-        "simple_socket/util/port_query.hpp"
 )
 
 set(privateHeaders
@@ -21,10 +18,7 @@ set(sources
         "simple_socket/SharedMemoryConnection.cpp"
         "simple_socket/SocketContext.cpp"
         "simple_socket/TCPSocket.cpp"
-        "simple_socket/UDPSocket.cpp"
-        "simple_socket/UnixDomainSocket.cpp"
 
-        "simple_socket/util/port_query.cpp"
 )
 
 set(publicHeadersFull)
