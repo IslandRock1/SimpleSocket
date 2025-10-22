@@ -6,14 +6,6 @@ set(publicHeaders
         "simple_socket/SimpleConnection.hpp"
         "simple_socket/SocketContext.hpp"
         "simple_socket/TCPSocket.hpp"
-        "simple_socket/UDPSocket.hpp"
-        "simple_socket/UnixDomainSocket.hpp"
-        "simple_socket/WebSocket.hpp"
-
-        "simple_socket/modbus/HoldingRegister.hpp"
-        "simple_socket/modbus/ModbusClient.hpp"
-        "simple_socket/modbus/modbus_helper.hpp"
-        "simple_socket/modbus/ModbusServer.hpp"
 
         "simple_socket/util/byte_conversion.hpp"
         "simple_socket/util/port_query.hpp"
@@ -23,10 +15,6 @@ set(privateHeaders
         "simple_socket/socket_common.hpp"
         "simple_socket/Socket.hpp"
         "simple_socket/util/uuid.hpp"
-
-        "simple_socket/ws/WebSocketConnection.hpp"
-        "simple_socket/ws/WebSocketHandshake.hpp"
-        "simple_socket/ws/WebSocketHandshakeKeyGen.hpp"
 )
 
 set(sources
@@ -35,13 +23,6 @@ set(sources
         "simple_socket/TCPSocket.cpp"
         "simple_socket/UDPSocket.cpp"
         "simple_socket/UnixDomainSocket.cpp"
-
-        "simple_socket/ws/WebSocket.cpp"
-        "simple_socket/ws/WebSocketClient.cpp"
-
-        "simple_socket/modbus/HoldingRegister.cpp"
-        "simple_socket/modbus/ModbusClient.cpp"
-        "simple_socket/modbus/ModbusServer.cpp"
 
         "simple_socket/util/port_query.cpp"
 )
